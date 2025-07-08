@@ -1,0 +1,432 @@
+/* FONT */
+@font-face {
+    font-family: ador_noirrit_italic_bold;
+    src: url("../fonts/Ador_Noirrit/Li Ador Noirrit Bold Italic.ttf");
+}
+
+@font-face {
+    font-family: ador_noirrit_bold;
+    src: url("../fonts/Ador_Noirrit/Li Ador Noirrit Bold.ttf");
+}
+
+@font-face {
+    font-family: ador_noirrit_light;
+    src: url("../fonts/Ador_Noirrit/Li Ador Noirrit ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: ador_noirrit_regular;
+    src: url("../fonts/Ador_Noirrit/Li Ador Noirrit Regular.ttf");
+}
+
+/* FONT END */
+body {
+    font-family: ador_noirrit_regular !important;
+}
+
+/* hero */
+#hero {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 80px 0;
+}
+
+#hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .container img {
+    margin-bottom: 50px;
+}
+
+#hero .container h1 {
+    font-family: ador_noirrit_bold;
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 109%;
+    text-align: center;
+    color: #000;
+}
+
+#hero .container p {
+    font-family: ador_noirrit_light;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    color: #404040;
+}
+
+#hero .purchase {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+#hero .purchase:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #000;
+}
+
+/* hero end */
+
+/* characteristics */
+#characteristics .header {
+    margin: 90px 0 50px 0;
+}
+
+#characteristics .header h4 {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #1e1e1e;
+    margin-bottom: 0;
+}
+
+#characteristics .characteristics_box h4 {
+    font-size: 20px;
+}
+
+#characteristics .header p {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #434343;
+}
+
+#characteristics .row {
+    margin-top: 20px;
+}
+
+#characteristics .characteristics_box {
+    padding: 30px 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    font-size: 25px;
+    border-radius: 8px;
+    width: calc(25% - 24px);
+    margin: 0 12px;
+}
+
+#characteristics .characteristics_box:hover {
+    box-shadow: 0 0 6px 0 rgba(51, 51, 51, 0.25);
+}
+
+#characteristics .characteristics_box:nth-child(1) span {
+    color: #6145c3;
+}
+
+#characteristics .characteristics_box:nth-child(2) span {
+    color: #588f59;
+}
+
+#characteristics .characteristics_box:nth-child(3) span {
+    color: #eb9011;
+}
+
+#characteristics .characteristics_box:nth-child(4) span {
+    color: #c076e3;
+}
+
+/* characteristics end */
+
+/* PRODUCT  */
+#product {
+    padding: 90px 0;
+}
+
+#product .header {
+    text-align: center;
+}
+
+#product .header h4 {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+#product .contains h4 {
+    font-family: ador_noirrit_bold;
+    font-weight: 500;
+    font-size: 28px;
+    color: #3d3d3d;
+    margin-top: 10px;
+}
+
+#product .contains .retting {
+    display: flex;
+}
+
+#product .contains ul {
+    display: flex;
+    list-style-type: none;
+    color: #e68f14;
+}
+
+#product .pricing span {
+    font-family: ador_noirrit_bold;
+    font-weight: 500;
+    font-size: 37px;
+    color: #000;
+}
+
+#product .product_cart .img {
+    text-align: center;
+}
+
+#product .product_cart {
+    width: 32%;
+    padding: 30px;
+    margin: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#product .pricing a {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#product .pricing a:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #000;
+}
+
+/* PRODUCT END */
+
+/* REVIEW */
+#review .header {
+    text-align: center;
+}
+
+#review .header h4 {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #1e1e1e;
+    font-family: ador_noirrit_bold;
+}
+
+#review .slider {
+    margin: 0 10px;
+    position: relative;
+}
+
+#review .left {
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    z-index: 22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    left: -40px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: 1px solid #565656;
+    color: #565656;
+}
+
+#review .right {
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    z-index: 22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    right: -38px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: 1px solid #565656;
+    color: #565656;
+}
+
+#review .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#review .slick-dots li button {
+    color: transparent;
+    width: 9px;
+    height: 13px;
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    background: #d9d9d9;
+    margin: 0 5px;
+}
+
+#review .slick-dots li.slick-active button {
+    background-color: #6d6d6d;
+}
+
+/* REVIEW END */
+
+/* FAQ */
+#faq {
+    margin: 50px 0;
+}
+
+#faq .header {
+    padding: 20px 0;
+}
+
+#faq .header h4 {
+    font-family: ador_noirrit_bold;
+}
+
+/* FAQ END */
+
+#order .submit_order {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#order .submit_order:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #000;
+}
+
+#order .header {
+    margin: 80px 0 50px 0;
+    text-align: center;
+}
+
+#order h5 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+#order .header h4 {
+    font-family: ador_noirrit_bold;
+}
+
+/* #order .input-group{
+    border: 1px solid #404040;
+} */
+
+#order .input-group {
+    margin-top: 25px;
+}
+
+#order .input-group input {
+    background-color: transparent;
+    outline: none !important;
+    /* border-bottom: 1px solid #00000092;
+    border-top: 1px solid #00000092; */
+    padding: 1px;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+#order .input-group button {
+    background: transparent;
+    outline: 1px solid #00000092;
+    color: #000;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    background: #00000030;
+}
+
+#order .check_pack {
+    padding: 35px !important;
+}
+
+#footer {
+    font-family: ador_noirrit_regular !important;
+}
+
+#product_intro .product_intro {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #1e1e1e;
+    margin-bottom: 0;
+}
+
+#product_intro h5 {
+    font-size: 18px;
+}
+
+#order .daraz-quantity {
+    /* background-color: red; */
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#order .form-check {
+    position: relative;
+}
+
+#order .form-check .inline-arrow {
+    position: absolute;
+    top: 20%;
+
+}
+
+#order .form-check-label {
+    font-size: 25px;
+}
+
+#order .daraz-quantity button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#order .daraz-quantity button span {
+    /* background-color: RED; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-arrow {
+    width: 30px;
+    height: 30px;
+    animation: bounce 1s infinite;
+    /* margin-right: 50px; */
+    margin-top: -40px;
+    left: 20px;
+}
