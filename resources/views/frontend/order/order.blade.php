@@ -252,23 +252,6 @@
         .daraz-quantity .qty-input:disabled {
             background-color: #fff;
         }
-
-
-
-
-        
-
-        @keyframes bounce {
-
-            0%,
-            100% {
-                transform: translateY(0px) rotate(0deg);
-            }
-
-            50% {
-                transform: translateY(0px) rotate(-45deg);
-            }
-        }
     </style>
 </head>
 
@@ -307,8 +290,8 @@
 
             <div class="row justify-content-center mt-5">
                 <!-- Product 1 -->
-                <div class="col-xl-4 col-md-6 mb-4 product_cart h-100 p-0">
-                    <div class="product-card h-100">
+                <div class="col-xl-4 col-md-6 mb-4 product_cart  p-0">
+                    <div class="product-card ">
                         <div class="img">
                             <img class="img-fluid" src="{{ asset('frontend/assets/images/package/13.jpg') }}"
                                 alt="Product 1" />
@@ -322,23 +305,27 @@
                                 আমির আল উদ | এহসাস আল এরাবিয়া | কুল ওয়াটার ব্লু | ডানহিল ডিজায়ার | হোয়াইট উদ
                             </p>
 
-                            <div class="retting mt-3">
+                            <div class="retting mt-3 d-flex justify-content-center ">
                                 <span>রেটিং:</span>
-                                <ul class="p-0 d-inline-flex">
+                                <ul class="p-0 d-flex justify-content-center">
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
@@ -358,8 +345,8 @@
                 </div>
 
                 <!-- Product 2 -->
-                <div class="col-xl-4 col-md-6 mb-4 product_cart p-0 h-100">
-                    <div class="product-card h-100">
+                <div class="col-xl-4 col-md-6 mb-4 product_cart p-0 ">
+                    <div class="product-card ">
                         <div class="img">
                             <img class="img-fluid" src="{{ asset('frontend/assets/images/package/12.jpg') }}"
                                 alt="Product 2" />
@@ -374,23 +361,27 @@
                                 ফেরদৌস | জোপি | সুলতান | প্যারিস হিলটন | বাকারাত রোজ
                             </p>
 
-                            <div class="retting mt-3">
+                            <div class="retting mt-3 d-flex justify-content-center ">
                                 <span>রেটিং:</span>
                                 <ul class="p-0 d-inline-flex">
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
-                                        <iconify-icon icon="material-symbols:star-rounded" width="18" height="18">
+                                        <iconify-icon icon="material-symbols:star-rounded" width="18"
+                                            height="18">
                                         </iconify-icon>
                                     </li>
                                     <li>
@@ -431,37 +422,44 @@
                     <img class="img-fluid" src="{{ asset('frontend/assets/images/review/1.jpg') }}" alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/2.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/2.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/3.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/3.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/4.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/4.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/5.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/5.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/5.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/6.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/6.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/7.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/7.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/8.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/8.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/9.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/9.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/10.jpg') }}"
+                        alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/10.jpg') }}" alt="" />
-                </div>
-                <div class="slider">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/11.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/11.jpg') }}"
+                        alt="" />
                 </div>
             </div>
         </div>
@@ -509,7 +507,8 @@
                 <div class=" col-6 characteristics_box">
                     <div>
                         <span>
-                            <iconify-icon icon="material-symbols:editor-choice-rounded" width="50" height="50">
+                            <iconify-icon icon="material-symbols:editor-choice-rounded" width="50"
+                                height="50">
                             </iconify-icon>
                         </span>
                         <h4>আপনার পছন্দমতো আতর নির্বাচন করার সুবিধা</h4>
@@ -538,12 +537,12 @@
 
                             <!-- Product Aroma -->
                             <div class="col-md-6 col-lg-5">
-                                <div class="product-card p-3 h-100 border check_pack">
+                                <div class="product-card p-3  border check_pack">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <div class="form-check d-flex align-items-center">
                                             <!-- Arrow icon before checkbox -->
-                                            <img src="{{ asset('frontend/assets/images/review/arrow-top.png') }}"
-                                                alt="Click Here Arrow" class="inline-arrow me-2">
+                                            {{-- <img src="{{ asset('frontend/assets/images/review/arrow-top.png') }}"
+                                                alt="Click Here Arrow" class="inline-arrow me-2"> --}}
 
                                             <input class="form-check-input package-checkbox" type="checkbox"
                                                 id="product_aroma" data-price="390"
@@ -562,8 +561,8 @@
                                                 </iconify-icon>
                                             </span>
                                         </button>
-                                        <input type="number" class="qty-input" id="qty_aroma" value="1" min="1"
-                                            disabled>
+                                        <input type="number" class="qty-input" id="qty_aroma" value="1"
+                                            min="1" disabled>
                                         <button type="button" class="btn-qty btn-increment" disabled>
                                             <span>
                                                 <iconify-icon icon="ic:round-plus" width="30" height="30">
@@ -576,11 +575,11 @@
 
                             <!-- Product Arabia -->
                             <div class="col-md-6 col-lg-5">
-                                <div class="product-card p-3 h-100 border check_pack">
+                                <div class="product-card p-3  border check_pack">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <div class="form-check d-flex align-items-center">
-                                            <img src="{{ asset('frontend/assets/images/review/arrow-top.png') }}"
-                                                alt="Click Here Arrow" class="inline-arrow me-2">
+                                            {{-- <img src="{{ asset('frontend/assets/images/review/arrow-top.png') }}"
+                                                alt="Click Here Arrow" class="inline-arrow me-2"> --}}
                                             <input class="form-check-input package-checkbox" type="checkbox"
                                                 id="product_arabia" data-price="590"
                                                 data-name="এহেসাস আল আরাবিয়া ১০ টির প্যাকেজ।">
@@ -598,8 +597,8 @@
                                                 </iconify-icon>
                                             </span>
                                         </button>
-                                        <input type="number" class="qty-input" id="qty_arabia" value="1" min="1"
-                                            disabled>
+                                        <input type="number" class="qty-input" id="qty_arabia" value="1"
+                                            min="1" disabled>
                                         <button type="button" class="btn-qty btn-increment" disabled>
                                             <span>
                                                 <iconify-icon icon="ic:round-plus" width="30" height="30">
@@ -622,53 +621,53 @@
 
                     <!-- Client Info -->
                     <div class="col-xl-5 p-3">
-                        <label for="client_name">Name:</label>
-                        <input type="text" name="client_name" id="client_name" class="form-control mb-1"
-                            placeholder="enter your name">
+                        <label for="client_name">আপনার নাম লিখুন</label>
+                        <input type="text" name="client_name" id="client_name" class="form-control mb-3"
+                            placeholder="নাম">
                         <div class="text-danger small mb-2" id="error-client_name"></div>
 
-                        <label for="client_phone">Phone:</label>
-                        <input type="number" name="client_phone" id="client_phone" class="form-control mb-1"
-                            placeholder="enter your number">
+                        <label for="client_phone">মোবাইল নাম্বার লিখুন:</label>
+                        <input type="number" name="client_phone" id="client_phone" class="form-control mb-3"
+                            placeholder="মোবাইল নাম্বার">
                         <div class="text-danger small mb-2" id="error-client_phone"></div>
 
-                        <label for="client_address">Address:</label>
+                        <label for="client_address">আপনার ঠিকানা লিখুন ( যেখান থেকে আপনি পণ্যটি গ্রহণ করবেন ):</label>
                         <textarea name="client_address" id="client_address" cols="30" rows="5" class="form-control mb-1"
-                            placeholder="client address details"></textarea>
+                            placeholder="আপনার ঠিকানা..."></textarea>
                         <div class="text-danger small mb-2" id="error-client_address"></div>
                     </div>
 
                     <!-- Address Fields -->
                     <div class="col-xl-5 p-3">
-                        <label for="division">Division</label>
+                        <label for="division">আপনার বিভাগ নির্বাচন করুন</label>
                         <select name="division_id" id="division" class="form-control mb-1">
-                            <option value="" disabled selected>-- select division --</option>
+                            <option value="" disabled selected>-- বিভাগ নির্বাচন করুন --</option>
                             @foreach ($divisions as $division)
-                            <option value="{{ $division['id'] }}">{{ $division['name'] }}</option>
+                                <option value="{{ $division['id'] }}">{{ $division['name'] }}</option>
                             @endforeach
                         </select>
-                        <div class="text-danger small mb-2" id="error-division_id"></div>
+                        <div class="text-danger small " id="error-division_id"></div>
 
-                        <label for="district">District</label>
-                        <select name="district_id" id="district" class="form-control mb-1">
-                            <option value="" disabled selected>-- select district --</option>
+                        <label for="district" class="mt-3">আপনার জেলা নির্বাচন করুন</label>
+                        <select name="district_id" id="district" class="form-control">
+                            <option value="" disabled selected>-- জেলা নির্বাচন করুন --</option>
                             @foreach ($districts as $district)
-                            <option value="{{ $district['id'] }}">{{ $district['name'] }}</option>
+                                <option value="{{ $district['id'] }}">{{ $district['name'] }}</option>
                             @endforeach
                         </select>
                         <div class="text-danger small mb-2" id="error-district_id"></div>
 
-                        <label for="upazilla">Upazilla</label>
+                        {{-- <label for="upazilla">Upazilla</label>
                         <select name="upazilla_id" id="upazilla" class="form-control mb-1">
                             <option value="" disabled selected>-- select upazilla --</option>
                             @foreach ($upazillas as $upazilla)
                             <option value="{{ $upazilla['id'] }}">{{ $upazilla['name'] }}</option>
                             @endforeach
                         </select>
-                        <div class="text-danger small mb-2" id="error-upazilla_id"></div>
+                        <div class="text-danger small mb-2" id="error-upazilla_id"></div> --}}
 
                         <button type="submit" class="submit_order btn btn-primary w-100 mt-3">
-                            Submit Order
+                            অর্ডার কনফার্ম করুন
                         </button>
                     </div>
                 </div>
@@ -697,7 +696,7 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    প্রশ্ন ১. আতর লাগানোর পর কতক্ষণ পর্যন্ত ঘ্রাণ থাকে?
+                                    প্রশ্ন ০১ঃ আতর লাগানোর পর কতক্ষণ পর্যন্ত ঘ্রাণ থাকে?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
@@ -713,7 +712,7 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    প্রশ্ন: ২. আতরের ঘ্রাণ আশপাশে কতটুকু ছড়ায়?
+                                    প্রশ্ন ০২ঃ  আতরের ঘ্রাণ আশপাশে কতটুকু ছড়ায়?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
@@ -727,8 +726,9 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    প্রশ্ন: আতর ব্যবহারে কি জামায় দাগ পড়ার ঝুঁকি থাকে?
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    প্রশ্ন ৩ঃ আতর ব্যবহারে কি জামায় দাগ পড়ার ঝুঁকি থাকে?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse"
@@ -745,8 +745,9 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    প্রশ্ন: আতরের বোতল কিভাবে সংরক্ষণ করলে ঘ্রাণ ভালো থাকবে?
+                                    data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    প্রশ্ন ০৪ঃ আতরের বোতল কিভাবে সংরক্ষণ করলে ঘ্রাণ ভালো থাকবে?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
@@ -777,7 +778,8 @@
             <div class="row gy-4 justify-content-between align-items-center">
 
                 <!-- Logo & Description -->
-                <div class="col-md-4 text-center text-md-start" style="text-align: center !important;
+                <div class="col-md-4 text-center text-md-start"
+                    style="text-align: center !important;
     display: flex
 ;
     flex-direction: column;
@@ -798,10 +800,12 @@
                         <li><a href="#product"
                                 style="color: #eee; text-decoration: none; transition: color 0.3s;">প্যাকেজ
                                 সমূহ</a></li>
-                        <li><a href="#order" style="color: #eee; text-decoration: none; transition: color 0.3s;">অর্ডার
+                        <li><a href="#order"
+                                style="color: #eee; text-decoration: none; transition: color 0.3s;">অর্ডার
                                 করুন</a>
                         </li>
-                        <li><a href="#faq" style="color: #eee; text-decoration: none; transition: color 0.3s;">প্রশ্ন ও
+                        <li><a href="#faq"
+                                style="color: #eee; text-decoration: none; transition: color 0.3s;">প্রশ্ন ও
                                 উত্তর</a></li>
                         <li><a href="#review"
                                 style="color: #eee; text-decoration: none; transition: color 0.3s;">ক্রেতাদের
@@ -859,222 +863,263 @@
 
 
 
-
-    <script>
-        $(document).ready(function() {
-    var options = {
-        searchable: true,
-        placeholder: 'select',
-        searchtext: 'খুঁজুন',
-        selectedtext: 'নির্বাচিত'
-    };
-
-    if ($("#division").length) {
-        NiceSelect.bind(document.getElementById("division"), options);
-    }
-    if ($("#district").length) {
-        NiceSelect.bind(document.getElementById("district"), options);
-    }
-    if ($("#upazilla").length) {
-        NiceSelect.bind(document.getElementById("upazilla"), options);
-    }
-
-    $(".package-checkbox").on("change", function() {
-        let checked = $(this).is(":checked");
-        let productCard = $(this).closest(".product-card");
-        let qtyInput = productCard.find(".qty-input");
-        let btnIncrement = productCard.find(".btn-increment");
-        let btnDecrement = productCard.find(".btn-decrement");
-
-        qtyInput.prop("disabled", !checked);
-        btnIncrement.prop("disabled", !checked);
-        btnDecrement.prop("disabled", !checked);
-
-        if (!checked) {
-            qtyInput.val(1);
-        }
-        calculateTotal();
-    });
-
-    $(".btn-increment").on("click", function() {
-        let input = $(this).siblings(".qty-input");
-        let currentVal = parseInt(input.val()) || 1;
-        input.val(currentVal + 1).trigger("input");
-    });
-
-    $(".btn-decrement").on("click", function() {
-        let input = $(this).siblings(".qty-input");
-        let currentVal = parseInt(input.val()) || 1;
-        if (currentVal > 1) {
-            input.val(currentVal - 1).trigger("input");
-        }
-    });
-
-    $(".qty-input").on("input", function() {
-        // Prevent invalid or less than 1 values
-        let val = parseInt($(this).val());
-        if (isNaN(val) || val < 1) {
-            $(this).val(1);
-        }
-        calculateTotal();
-    });
-
-    function calculateTotal() {
-        let total = 0;
-        $(".package-checkbox:checked").each(function() {
-            let price = parseFloat($(this).data("price")) || 0;
-            let qty = parseInt($(this).closest(".product-card").find(".qty-input").val()) || 1;
-            total += price * qty;
-        });
-        // Format total with 2 decimals
-        $("#total_price").text("৳ " + total.toFixed(2));
+<script>
+    /**
+     * Convert English numbers to Bangla numbers
+     */
+    function convertToBanglaNumber(num) {
+        const enToBn = {
+            "0": "০",
+            "1": "১",
+            "2": "২",
+            "3": "৩",
+            "4": "৪",
+            "5": "৫",
+            "6": "৬",
+            "7": "৭",
+            "8": "৮",
+            "9": "৯",
+            ".": "."
+        };
+        return num
+            .toString()
+            .split("")
+            .map(c => enToBn[c] !== undefined ? enToBn[c] : c)
+            .join("");
     }
 
-    $("form").on("submit", function(e) {
-        e.preventDefault();
+    /**
+     * Convert Bangla numbers back to English numbers
+     */
+    function convertToEnglishNumber(bnNumberStr) {
+        const bnToEn = {
+            "০": "0",
+            "১": "1",
+            "২": "2",
+            "৩": "3",
+            "৪": "4",
+            "৫": "5",
+            "৬": "6",
+            "৭": "7",
+            "৮": "8",
+            "৯": "9",
+            ".": "."
+        };
+        return bnNumberStr
+            .split("")
+            .map(c => bnToEn[c] !== undefined ? bnToEn[c] : c)
+            .join("");
+    }
 
-        $(".text-danger").html('');
-        $(".form-control").removeClass('is-invalid');
+    $(document).ready(function() {
+        var options = {
+            searchable: true,
+            placeholder: 'select',
+            searchtext: 'খুঁজুন',
+            selectedtext: 'নির্বাচিত'
+        };
 
-        let name = $("#client_name").val().trim();
-        let phone = $("#client_phone").val().trim();
-        let address = $("#client_address").val().trim();
-        let division = $("#division").val();
-        let district = $("#district").val();
-        let upazilla = $("#upazilla").val();
-
-        // Client-side required validation
-        if (!name) {
-            $("#error-client_name").text("নাম আবশ্যক।");
-            $("#client_name").addClass("is-invalid");
+        if ($("#division").length) {
+            NiceSelect.bind(document.getElementById("division"), options);
         }
-        if (!phone) {
-            $("#error-client_phone").text("ফোন নম্বর আবশ্যক।");
-            $("#client_phone").addClass("is-invalid");
+        if ($("#district").length) {
+            NiceSelect.bind(document.getElementById("district"), options);
         }
-        if (!address) {
-            $("#error-client_address").text("ঠিকানা আবশ্যক।");
-            $("#client_address").addClass("is-invalid");
-        }
-        if (!division) {
-            $("#error-division_id").text("বিভাগ নির্বাচন করুন।");
-            $("#division").addClass("is-invalid");
-        }
-        if (!district) {
-            $("#error-district_id").text("জেলা নির্বাচন করুন।");
-            $("#district").addClass("is-invalid");
-        }
-        // Upazilla may be optional, remove from required check if so
-
-        if (!name || !phone || !address || !division || !district) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'সমস্যা',
-                text: 'দয়া করে সব আবশ্যক তথ্য পূরণ করুন।'
-            });
-            return;
+        if ($("#upazilla").length) {
+            NiceSelect.bind(document.getElementById("upazilla"), options);
         }
 
-        let packages = [];
-        $(".package-checkbox:checked").each(function() {
-            let pname = $(this).data("name");
-            let price = parseFloat($(this).data("price"));
-            let qty = parseInt($(this).closest(".product-card").find(".qty-input").val());
-            packages.push({
-                name: pname,
-                price: price,
-                qty: qty
-            });
+        $(".package-checkbox").on("change", function() {
+            let checked = $(this).is(":checked");
+            let productCard = $(this).closest(".product-card");
+            let qtyInput = productCard.find(".qty-input");
+            let btnIncrement = productCard.find(".btn-increment");
+            let btnDecrement = productCard.find(".btn-decrement");
+
+            qtyInput.prop("disabled", !checked);
+            btnIncrement.prop("disabled", !checked);
+            btnDecrement.prop("disabled", !checked);
+
+            if (!checked) {
+                qtyInput.val(1);
+            }
+            calculateTotal();
         });
 
-        if (packages.length === 0) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'প্যাকেজ নির্বাচন করুন',
-                text: 'অন্তত একটি প্যাকেজ নির্বাচন করুন।',
+        $(".btn-increment").on("click", function() {
+            let input = $(this).siblings(".qty-input");
+            let currentVal = parseInt(input.val()) || 1;
+            input.val(currentVal + 1).trigger("input");
+        });
+
+        $(".btn-decrement").on("click", function() {
+            let input = $(this).siblings(".qty-input");
+            let currentVal = parseInt(input.val()) || 1;
+            if (currentVal > 1) {
+                input.val(currentVal - 1).trigger("input");
+            }
+        });
+
+        $(".qty-input").on("input", function() {
+            let val = parseInt($(this).val());
+            if (isNaN(val) || val < 1) {
+                $(this).val(1);
+            }
+            calculateTotal();
+        });
+
+        function calculateTotal() {
+            let total = 0;
+            $(".package-checkbox:checked").each(function() {
+                let price = parseFloat($(this).data("price")) || 0;
+                let qty = parseInt($(this).closest(".product-card").find(".qty-input").val()) || 1;
+                total += price * qty;
             });
-            return;
+            $("#total_price").text("৳ " + convertToBanglaNumber(total.toFixed(2)));
         }
 
-        let totalPrice = $("#total_price").text().replace(/[^\d.]/g, '');
-        totalPrice = parseFloat(totalPrice);
+        $("form").on("submit", function(e) {
+            e.preventDefault();
 
-        const btn = $(this).find("button[type='submit']");
-        btn.prop("disabled", true).text("অপেক্ষা করুন...");
+            $(".text-danger").html('');
+            $(".form-control").removeClass('is-invalid');
 
-        $.ajax({
-            url: "{{ route('frontend.order.store') }}",
-            method: "POST",
-            data: {
-                _token: "{{ csrf_token() }}",
-                client_name: name,
-                client_phone: phone,
-                client_address: address,
-                division_id: division,
-                district_id: district,
-                upazilla_id: upazilla,
-                packages: packages,
-                total_price: totalPrice
-            },
-            success: function(response) {
+            let name = $("#client_name").val().trim();
+            let phone = $("#client_phone").val().trim();
+            let address = $("#client_address").val().trim();
+            let division = $("#division").val();
+            let district = $("#district").val();
+            let upazilla = $("#upazilla").val();
+
+            if (!name) {
+                $("#error-client_name").text("নাম আবশ্যক।");
+                $("#client_name").addClass("is-invalid");
+            }
+            if (!phone) {
+                $("#error-client_phone").text("ফোন নম্বর আবশ্যক।");
+                $("#client_phone").addClass("is-invalid");
+            }
+            if (!address) {
+                $("#error-client_address").text("ঠিকানা আবশ্যক।");
+                $("#client_address").addClass("is-invalid");
+            }
+            if (!division) {
+                $("#error-division_id").text("বিভাগ নির্বাচন করুন।");
+                $("#division").addClass("is-invalid");
+            }
+            if (!district) {
+                $("#error-district_id").text("জেলা নির্বাচন করুন।");
+                $("#district").addClass("is-invalid");
+            }
+
+            if (!name || !phone || !address || !division || !district) {
                 Swal.fire({
-                    icon: 'success',
-                    title: 'অর্ডার সম্পন্ন!',
-                    text: response.message
-                }).then(() => {
-                    window.location.href = "{{ route('frontend.order.index') }}";
+                    icon: 'warning',
+                    title: 'সমস্যা',
+                    text: 'দয়া করে সব আবশ্যক তথ্য পূরণ করুন।'
                 });
-            },
-            error: function(xhr) {
-                let errors = xhr.responseJSON?.errors;
-                if (errors) {
-                    $.each(errors, function(key, value) {
-                        let errorSelector = "#error-" + key;
-                        if ($(errorSelector).length) {
-                            $(errorSelector).html(value[0]);
-                            $("#" + key).addClass("is-invalid");
-                        }
-                    });
-                } else {
+                return;
+            }
+
+            let packages = [];
+            $(".package-checkbox:checked").each(function() {
+                let pname = $(this).data("name");
+                let price = parseFloat($(this).data("price"));
+                let qty = parseInt($(this).closest(".product-card").find(".qty-input").val());
+                packages.push({
+                    name: pname,
+                    price: price,
+                    qty: qty
+                });
+            });
+
+            if (packages.length === 0) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'প্যাকেজ নির্বাচন করুন',
+                    text: 'অন্তত একটি প্যাকেজ নির্বাচন করুন।',
+                });
+                return;
+            }
+
+            // ✅ Convert Bangla numerals back to English before parsing
+            let totalPriceText = $("#total_price").text().replace(/[^\u09E6-\u09EF.]/g, '');
+            let totalPriceEn = convertToEnglishNumber(totalPriceText);
+            let totalPrice = parseFloat(totalPriceEn);
+
+            const btn = $(this).find("button[type='submit']");
+            btn.prop("disabled", true).text("অপেক্ষা করুন...");
+
+            $.ajax({
+                url: "{{ route('frontend.order.store') }}",
+                method: "POST",
+                data: {
+                    _token: "{{ csrf_token() }}",
+                    client_name: name,
+                    client_phone: phone,
+                    client_address: address,
+                    division_id: division,
+                    district_id: district,
+                    upazilla_id: upazilla,
+                    packages: packages,
+                    total_price: totalPrice
+                },
+                success: function(response) {
                     Swal.fire({
-                        icon: 'error',
-                        title: 'ত্রুটি!',
-                        text: 'আবার চেষ্টা করুন।'
+                        icon: 'success',
+                        title: 'অর্ডার সম্পন্ন!',
+                        text: response.message
+                    }).then(() => {
+                        window.location.href =
+                            "{{ route('frontend.order.index') }}";
                     });
+                },
+                error: function(xhr) {
+                    let errors = xhr.responseJSON?.errors;
+                    if (errors) {
+                        $.each(errors, function(key, value) {
+                            let errorSelector = "#error-" + key;
+                            if ($(errorSelector).length) {
+                                $(errorSelector).html(value[0]);
+                                $("#" + key).addClass("is-invalid");
+                            }
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'ত্রুটি!',
+                            text: 'আবার চেষ্টা করুন।'
+                        });
+                    }
+                },
+                complete: function() {
+                    btn.prop("disabled", false).text("Submit Order");
                 }
-            },
-            complete: function() {
-                btn.prop("disabled", false).text("Submit Order");
+            });
+        });
+
+        $(".buy-now-btn").on("click", function(e) {
+            e.preventDefault();
+
+            let productId = $(this).data("product-id");
+            let targetCheckbox = $("#" + productId);
+
+            $('html, body').animate({
+                scrollTop: $("#order").offset().top - 50
+            }, 500);
+
+            if (!targetCheckbox.prop("checked")) {
+                targetCheckbox.prop("checked", true).trigger("change");
             }
         });
     });
 
-    $(".buy-now-btn").on("click", function(e) {
-        e.preventDefault();
-
-        let productId = $(this).data("product-id");
-        let targetCheckbox = $("#" + productId);
-
-        $('html, body').animate({
-            scrollTop: $("#order").offset().top - 50
-        }, 500);
-
-        if (!targetCheckbox.prop("checked")) {
-            targetCheckbox.prop("checked", true).trigger("change");
-        }
-    });
-});
-
-
- $(".product-list").each(function () {
-        // Show all items first to reset
+    $(".product-list").each(function() {
         $(this).children("li").show();
-
-        // Then hide items after the first 2 (i.e., index 2 and beyond)
         $(this).children("li:gt(1)").hide();
     });
 
-    $(".toggle-btn").on("click", function (e) {
+    $(".toggle-btn").on("click", function(e) {
         e.preventDefault();
 
         let targetId = $(this).data("target");
@@ -1089,9 +1134,9 @@
             $(this).text("কম দেখুন");
         }
     });
+</script>
 
 
-    </script>
 
 
 
